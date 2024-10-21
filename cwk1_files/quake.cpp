@@ -9,7 +9,21 @@ using namespace std;
 Quake::Quake(const string& tm, double lat, double lon, double dep, double mag):
   time(tm), latitude(lat), longitude(lon), depth(dep), magnitude(mag)
 {
-  // Add validation code here
+  if (lat > 90 || lat < -90)
+  {
+    throw range_error("Latitude out of bounds.");
+  }
+  
+  if (lon > 180 || lon < -180)
+  {
+    throw range_error("Longitude out of bounds");
+  }
+
+  if (dep < 0 || mag < 0)
+  {
+    throw range_error("Depth or Magnitude cant be negative.");
+  }
+
 }
 
 

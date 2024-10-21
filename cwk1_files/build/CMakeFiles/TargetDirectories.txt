@@ -1,0 +1,5 @@
+/workspaces/UI/cwk1_files/build/CMakeFiles/rebuild_cache.dir
+/workspaces/UI/cwk1_files/build/CMakeFiles/edit_cache.dir
+/workspaces/UI/cwk1_files/build/CMakeFiles/test_quake.dir
+/workspaces/UI/cwk1_files/build/CMakeFiles/test_dataset.dir
+/workspaces/UI/cwk1_files/build/CMakeFiles/quaketool.dir
